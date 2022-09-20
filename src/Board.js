@@ -1,6 +1,6 @@
 import Pocket from './Pocket';
 
-function Board(props) {
+export default function Board(props) {
   const inlineStyle = {
     display: 'inline-block',
     height: '300px',
