@@ -6,9 +6,9 @@ import reportWebVitals from './reportWebVitals';
 import { HashRouter } from 'react-router-dom';
 import rootReducer from './Context/Reducer/main';
 import { Provider } from 'react-redux';
-import { createStoreHook } from 'react-redux';
+import { createStore } from 'redux';
 
-const store = createStoreHook(rootReducer);
+const store = createStore(rootReducer);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
